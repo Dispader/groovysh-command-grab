@@ -37,5 +37,4 @@ groovy:000>
 
 - package command class
     - remove import messages during load
-- create build, to resolve dependencies
 - enable CI build

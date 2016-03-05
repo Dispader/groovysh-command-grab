@@ -1,0 +1,16 @@
+plugins {
+    id 'build-announcements'
+    id 'project-report'
+    id 'groovy'
+}
+
+repositories.jcenter()
+dependencies {
+    compile 'org.codehaus.groovy:groovy-all:2.4.6'
+    compile 'jline:jline:2.12'
+}
+
+tasks.withType(Test) {
+    testLogging.exceptionFormat = 'full'
+    testLogging.showStandardStreams = true
+}
