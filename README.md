@@ -9,7 +9,7 @@ I've found this little Command class useful to tide myself over until a proper `
 ## usage
 
 - `groovysh`
-- `:load https://git.io/v2N1I` (a short URL to the raw GitHub file)
+- `:load https://git.io/v2N1I` (a short URL to the raw `.groovy` class in GitHub)
 - `:register GrabCommand`
 
 ## example
