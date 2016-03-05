@@ -8,7 +8,7 @@ class GrabCommand extends CommandSupport {
     public static final String COMMAND_NAME = ':grab'
 
     final String description='Add a dependency to the execution environment'
-    final String usage='<dependency|(group name version>)
+    final String usage='<dependency|(group name version>)'
     final String help='Add a dependency to the Groovy Shell runtime environment.'
 
     public GrabCommand(org.codehaus.groovy.tools.shell.Groovysh shell) {
