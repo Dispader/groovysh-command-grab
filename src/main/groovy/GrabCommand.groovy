@@ -18,8 +18,6 @@ class GrabCommand extends CommandSupport {
     Object execute(List<String> args) {
         if ( args?.size() != 1 && args?.size() != 3 ) {
             fail("usage: @|bold ${COMMAND_NAME}|@ ${usage}")
-            // TODO: EVALUATE the following, used by other commands
-            //fail(messages.format('error.unexpected_args', args.join(' ')))
         }
         def dep
         if ( args.size() == 3 ) {
