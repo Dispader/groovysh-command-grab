@@ -7,7 +7,7 @@ class GrabCommand extends org.codehaus.groovy.tools.shell.CommandSupport {
     final String help='Add a dependency to the Groovy Shell runtime environment.'
 
     private static final java.util.prefs.Preferences PREFERENCES =
-        java.util.prefs.Preferences.userRoot().node("/org/codehaus/groovy/tools/shell");
+        java.util.prefs.Preferences.userRoot().node('/org/codehaus/groovy/tools/shell');
 
     public GrabCommand(org.codehaus.groovy.tools.shell.Groovysh shell) {
         super(shell, COMMAND_NAME, ':g')
