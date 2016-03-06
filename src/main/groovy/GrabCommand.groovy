@@ -45,7 +45,7 @@ class GrabCommand extends org.codehaus.groovy.tools.shell.CommandSupport {
         shell.packageHelper.preferenceChange(ignorePackageCompletion(false))
     }
 
-    java.util.prefs.PreferenceChangeEvent ignorePackageCompletion(Boolean complete) {
+    private java.util.prefs.PreferenceChangeEvent ignorePackageCompletion(Boolean complete) {
         new java.util.prefs.PreferenceChangeEvent(PREFERENCES,
             org.codehaus.groovy.tools.shell.util.PackageHelper.IMPORT_COMPLETION_PREFERENCE_KEY,
             complete as String)
