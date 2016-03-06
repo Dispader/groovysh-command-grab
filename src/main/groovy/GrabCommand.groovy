@@ -52,3 +52,6 @@ class GrabCommand extends org.codehaus.groovy.tools.shell.CommandSupport {
     }
 
 }
+
+// comment out this line if you plan on building this project
+':register GrabCommand'
