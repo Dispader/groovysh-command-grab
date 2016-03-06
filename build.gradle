@@ -8,6 +8,7 @@ repositories.jcenter()
 dependencies {
     compile 'org.codehaus.groovy:groovy-all:2.4.6'
     compile 'jline:jline:2.12'
+    compile('org.apache.ivy:ivy:2.4.0') { transitive = false }
 }
 
 tasks.withType(Test) {
