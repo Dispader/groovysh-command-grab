@@ -35,9 +35,11 @@ class GrabCommand extends org.codehaus.groovy.tools.shell.CommandSupport {
     }
 
     private void grab(String dependency) {
-        Map<String, Object> dependencyMap = org.codehaus.groovy.tools.GrapeUtil.getIvyParts(dependency)
-        groovy.grape.GrapeIvy grapeIvy = groovy.grape.Grape.instance
-        grapeIvy.grab([classLoader: shell.interp.classLoader.parent,refObject: shell.interp], dependencyMap)
+        Map<String, Object> dependencyMap =
+            org.codehaus.groovy.tools.GrapeUtil.getIvyParts(dependency)
+        groovy.grape.Grape.grab([classLoader: shell.interp.classLoader.parent,
+                                 refObject: shell.interp],
+                                dependencyMap)
     }
 
     private void reloadImportCompletion() {
