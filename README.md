@@ -5,8 +5,6 @@
 
 A standalone `:grab` command for the Groovy Shell.
 
-![Release](https://img.shields.io/badge/version-1.0.12-blue.svg)
-
 [GROOVY-6514](https://issues.apache.org/jira/browse/GROOVY-6514) is already cleared for the next Apache Groovy release, with a [merged Pull Request adding a `:grab` command](https://github.com/apache/groovy/pull/286).  In the meantime, interactively Grabbing dependencies requires a bit of knowledge and typing.
 
 I've found this little Command class useful to tide myself over until a proper `:grab` command makes it into the shell.
