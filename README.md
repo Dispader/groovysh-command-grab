@@ -3,6 +3,12 @@
 ![Release](https://img.shields.io/badge/version-1.0.0-blue.svg)
  [![Analytics](https://ga-beacon.appspot.com/UA-61184208-1/chromeskel_a/readme)](https://github.com/igrigorik/ga-beacon)
 
+## update
+
+The code in this repository is no longer needed.  The `:grab` command is now [included in `groovysh`](https://github.com/apache/groovy/commit/e664016fe16b97322bc373ece88cc1e83822683d).
+
+## description
+
 A standalone `:grab` command for the Groovy Shell.
 
 [GROOVY-6514](https://issues.apache.org/jira/browse/GROOVY-6514) is already cleared for the next Apache Groovy release, with a [merged Pull Request adding a `:grab` command](https://github.com/apache/groovy/pull/286).  In the meantime, interactively Grabbing dependencies requires a bit of knowledge and typing.
